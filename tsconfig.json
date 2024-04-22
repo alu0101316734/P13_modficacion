@@ -1,0 +1,15 @@
+{
+    "exclude": ["./tests", "./node_modules", "./dist"],
+    "include": ["./src"],
+    "compilerOptions": {
+       "target": "es2022",
+       "module": "NodeNext",
+       "declaration": true,
+       "rootDir": "./src",
+       "outDir": "./dist",
+       "noImplicitReturns": true,
+       "strictNullChecks": true,
+       "moduleResolution": "NodeNext",
+       "esModuleInterop": true,
+    }
+}
